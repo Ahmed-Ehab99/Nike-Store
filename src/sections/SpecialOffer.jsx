@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 const SpecialOffer = () => {
   return (
-    <div className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
+    <div className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container capitalize'>
       <div className='flex-1'>
         <img
           src={offer}

@@ -2,7 +2,7 @@ import { star } from "../assets/icons";
 
 const PopularProductCard = ({ imgURL, name, price }) => {
     return (
-        <div className='flex flex-col w-full max-sm:w-full max-sm:items-center'>
+        <div className='flex flex-col w-full max-sm:w-full max-sm:items-center capitalize'>
             <img src={imgURL} alt={name} className='w-[282px] h-[282px]' />
             <div className='mt-8 flex justify-start gap-2.5'>
                 <img src={star} alt='rating icon' width={24} height={24} />

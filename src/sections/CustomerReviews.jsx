@@ -3,7 +3,7 @@ import { reviews } from "../constants";
 
 const CustomerReviews = () => {
   return (
-    <section className='max-container'>
+    <div className='max-container capitalize'>
       <h3 className='font-palanquin text-center text-4xl font-bold'>
         What Our
         <span className='text-coral-red'> Customers </span>
@@ -24,7 +24,7 @@ const CustomerReviews = () => {
           />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

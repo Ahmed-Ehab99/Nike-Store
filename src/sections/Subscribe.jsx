@@ -2,9 +2,9 @@ import  Button  from "../components/Button";
 
 const Subscribe = () => {
   return (
-    <section
+    <div
       id='contact-us'
-      className='max-container flex justify-between items-center max-lg:flex-col gap-10'
+      className='max-container flex justify-between items-center max-lg:flex-col gap-10 capitalize'
     >
       <h3 className='text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold'>
         Sign Up for
@@ -16,7 +16,7 @@ const Subscribe = () => {
           <Button label='Sign Up' fullWidth />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

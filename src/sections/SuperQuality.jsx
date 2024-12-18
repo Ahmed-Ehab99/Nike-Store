@@ -3,9 +3,9 @@ import Button from "../components/Button";
 
 const SuperQuality = () => {
   return (
-    <section
+    <div
       id='about-us'
-      className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container'
+      className='flex justify-between items-center max-lg:flex-col gap-10 w-full max-container capitalize'
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
@@ -34,7 +34,7 @@ const SuperQuality = () => {
           className='object-contain'
         />
       </div>
-    </section>
+    </div>
   );
 };
 
